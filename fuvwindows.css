@@ -1,0 +1,280 @@
+button.cGreenButton {
+  display: block;
+  float: left;
+  width: 100px;
+  height: 32px;
+  background: transparent;
+  background-image: url(https://web.archive.org/web/20170702002900im_/http://www.fuvest.br/img/greenwinbutton100x32.png);
+  color: white;
+  text-align: center;
+  padding: 0px;
+  border: none;
+  margin: 0px;
+  cursor: pointer;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 10pt;
+}
+	 
+button.cGreenButton:hover {	   
+  background-image: url(https://web.archive.org/web/20170702002900im_/http://www.fuvest.br/img/greenwinbutton100x32hover.png);
+  color: yellow;
+}
+
+input.cInputEdit {
+  padding: 2px;
+  background-color: rgb(200,200,255);
+  color:black;
+  font-family:helvetica;
+  font-size:16px;
+  font-weight:bold;
+  border: none;
+  height:20px;
+  background-image:url(https://web.archive.org/web/20170702002900im_/http://www.fuvest.br/img/edittextm.gif);
+}
+
+div.cInputEditL {
+  float:left;
+  height:24px;
+  width:10px;
+  background-image:url(https://web.archive.org/web/20170702002900im_/http://www.fuvest.br/img/edittextlf.gif);
+}
+
+div.cInputEditR {
+  float:left;
+  height:24px;
+  width:10px;
+  background-image:url(https://web.archive.org/web/20170702002900im_/http://www.fuvest.br/img/edittextr.gif);
+}
+
+div.cFormCaption {
+  font-family:helvetica;
+  color:yellow;
+  font-size:11pt;
+  padding: 2px 0px 0px 0px;
+  background-color:rgb(128,128,255);
+  height:22px;
+}
+
+div.cWinResult {
+  padding: 2px;
+  background-color: rgb(200,200,255);
+  color:black;
+  font-family:helvetica;
+  font-size:9pt;
+  border: none;
+  overflow:auto;
+  border: solid 2px rgb(128,128,255);
+}
+
+p.cDlgText {
+  font-family:helvetica;
+  color:black;
+  font-size:11pt;
+  text-align:justify;
+  padding:0px;
+  margin:0px;
+}
+
+div.cWinCaption {
+  font-family:helvetica;
+  font-size:12pt;
+  font-weight:bold;
+  color:#e0e0ff;
+  border-bottom:solid 1px blue;
+}
+
+button.cWinButton {
+  display:block;
+  float:left;
+  width:100px;
+  height:24px;
+  background:transparent;
+  background-image:url(https://web.archive.org/web/20170702002900im_/http://www.fuvest.br/img/blue100px24px.png);
+  color:black;
+  text-align:center;
+  padding:0px;
+  border:none;
+  margin:0px;
+  cursor:pointer;
+  font-family:helvetica;
+  font-weight:bold;
+  font-size:9pt;
+}
+	 
+button.cWinButton:hover {	   
+  background-image: url(https://web.archive.org/web/20170702002900im_/http://www.fuvest.br/img/red100px24px.png);
+  color: navy;
+}
+
+td.cRB {
+  font-family:helvetica;
+  font-size:9pt;
+  font-weight:bold;
+  padding:1px;
+}
+
+td.cR {
+  font-family:helvetica;
+  font-size:7pt;
+  padding:1px;
+}
+
+div.cOWCaption {
+  font-family:verdana;
+  font-size:9pt;
+  font-weight:bold;
+  color:black;
+  padding:2px;
+  border-bottom:solid 1px rgb(128,128,128);
+  border-right:solid 1px rgb(128,128,128);
+  border-top:solid 1px white;
+  border-left:solid 1px white;
+  background-color:rgb(255,195,79);
+}
+
+div.cOWClose {
+  border-bottom:solid 1px rgb(128,128,128);
+  border-right:solid 1px rgb(128,128,128);
+  border-top:solid 1px white;
+  border-left:solid 1px white;  
+  background-color:rgb(255,195,79);
+}
+
+div.cOWClose:hover {
+  border-top:solid 1px rgb(128,128,128);
+  border-left:solid 1px rgb(128,128,128);
+  border-bottom:solid 1px white;
+  border-right:solid 1px white;  
+  background-color:rgb(255,0,0);
+}
+
+p.cDialogText {
+  font-family:verdana;
+  font-style:italic;
+  font-size:10pt;
+  margin:3px 0px 3px 0px;
+}
+
+p.cDialogFooter {
+  font-family:verdana;
+  font-style:italic;
+  font-size:10pt;
+  text-align:center;
+  margin:3px 0px 3px 0px;
+}
+
+div.cDialogFilter {
+  float:right;
+  padding:5px;
+  border:solid 1px gray;
+  background-color:rgb(255,255,200);
+  margin-bottom:4px;
+  margin-left:4px;
+  font-family:verdana;
+  font-size:8pt;
+}
+
+input.cDialogFilter {
+  font-family:verdana;
+  font-size:8pt;
+  background-color:rgb(200,200,100);
+  border:none;
+  width:100px;
+}
+
+div.cDialogScrollArea {
+  overflow:auto;
+  font-family:verdana;
+  font-size:10pt;
+  margin:0px;
+  padding:4px;
+  border:solid 1px gray;
+}
+
+a.cDialogScrollArea{
+  display:block;
+  padding:2px;
+  color:black;  
+}
+
+a.cDialogScrollArea:hover{
+  color:white;
+  text-decoration:none;
+  background-color:black;
+}
+
+a.cOWButton {
+  display:block;
+  vertical-align:middle;
+  border-bottom:solid 1px rgb(128,128,128);
+  border-right:solid 1px rgb(128,128,128);
+  border-top:solid 1px white;
+  border-left:solid 1px white;  
+  background-color:rgb(255,195,79);
+  font-family:helvetica;
+  font-size:10pt;
+  font-weight:bold;
+  text-align:center;
+  color:black;
+}
+
+a.cOWButton:hover {
+  border-top:solid 1px rgb(128,128,128);
+  border-left:solid 1px rgb(128,128,128);
+  border-bottom:solid 1px white;
+  border-right:solid 1px white;  
+  background-color:rgb(255,0,0);
+  text-decoration:none;
+}
+
+button.cWinButtonOrange {
+  padding:4px 10px 4px 10px;
+  vertical-align:middle;
+  border-bottom:solid 1px rgb(128,128,128);
+  border-right:solid 1px rgb(128,128,128);
+  border-top:solid 1px white;
+  border-left:solid 1px white;  
+  background-color:rgb(255,195,79);
+  font-family:helvetica;
+  font-size:12pt;
+  font-weight:bold;
+  text-align:center;
+  color:black;
+  cursor:pointer;
+}
+
+button.cWinButtonOrange:hover {
+  border-top:solid 1px rgb(128,128,128);
+  border-left:solid 1px rgb(128,128,128);
+  border-bottom:solid 1px white;
+  border-right:solid 1px white;  
+  background-color:rgb(255,0,0);
+  text-decoration:none;
+}
+
+input.cDlgInput {
+  padding: 4px 4px 4px 4px;
+}
+
+/*
+     FILE ARCHIVED ON 00:29:00 Jul 02, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:50:56 Jun 05, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.resolve: 68.309
+  exclusion.robots.policy: 0.229
+  esindex: 0.014
+  exclusion.robots: 0.244
+  CDXLines.iter: 20.353 (3)
+  LoadShardBlock: 43.106 (3)
+  PetaboxLoader3.datanode: 53.007 (4)
+  RedisCDXSource: 0.756
+  captures_list: 67.705
+  load_resource: 85.931
+*/
