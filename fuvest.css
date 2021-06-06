@@ -76,7 +76,7 @@ body {
 
 #idMainDIV {
   width:900px;
-  margin:auto;
+  margin:0 auto;
   position:relative;
   margin-bottom:20px;  
 }
@@ -92,7 +92,7 @@ body {
   padding-left:10px;
   padding-top:5px;
   background-image:url(/web/20170702002900im_/http://www.fuvest.br/img/fundo_principal.png);
-  margin-top:40px;
+  margin-top:0px;
 }
 
 *.cHideFromPrint {
